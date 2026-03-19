@@ -4,12 +4,12 @@
 # https://aka.ms/yaml
 
 trigger:
-- none
+- master
 
 resources:
  pipelines:
   - pipeline: buildContosoAir # identifier for the resource used in pipeline resource variables
-    source: Student1-59598321AppInnovation-59598321.ContosoAir # name of the pipeline that produces the artifact
+    source: dumomadolo-svg.ContosoAir # name of the pipeline that produces the artifact
     trigger:
       branches:
        include:
