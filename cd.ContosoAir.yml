@@ -21,7 +21,7 @@ pool:
 steps:
 - task: DownloadPipelineArtifact@2
   inputs:
-    buildType: 'specific'
+    buildType: 'current'
     project: '72462f0d-ae88-4d83-a48c-93cdf7765b04'
     definition: '4'
     buildVersionToDownload: 'latest'
